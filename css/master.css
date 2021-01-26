@@ -26,6 +26,12 @@ body {
 
 /* impostazioni navbar */
 
+.navbar {
+  position: fixed;
+  right: 0;
+  z-index: 1000;
+}
+
 .navbar::after {
   content: "";
   clear: both;
